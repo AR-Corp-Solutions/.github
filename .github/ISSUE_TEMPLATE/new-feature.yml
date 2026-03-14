@@ -4,7 +4,7 @@ title: "[Feature]: "
 labels: [ "enhancement" ]
 
 body:
-  - type: textarea
+  - type: input
     id: who
     attributes:
       label: Who
@@ -12,7 +12,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: when
     attributes:
       label: When
@@ -20,7 +20,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: what
     attributes:
       label: What
